@@ -1,0 +1,135 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  color: wheat;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  padding: 0 20px;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 10px;
+  gap: 15px;
+  height: 100%;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: large;
+}
+.menu li a:hover {
+  color: black;
+  transition: color 0.3s ease-in-out;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  font-size: larger;
+}
+.search input {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.search input:focus {
+  border-radius: 15px;
+  outline: none;
+}
+
+.search button {
+  padding: 10px 20px;
+  background-color: #7fe67f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.search button:hover {
+  background-color: #fd06ed;
+  border-radius: 20px;
+}
+
+.container-box {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./image/aboutbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 40%;
+  text-align: center;
+  width: 60%;
+  margin-top: 50px;
+  gap: 20px;
+}
+.about {
+  width: 90%;
+  height: 160px;
+  border-radius: 10px;
+  color: white;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 700px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.par {
+  font-size: 25px;
+  font-weight: 500px;
+  margin-bottom: 10px;
+  text-align: center;
+  justify-content: center;
+}
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.img-box img {
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.img-box img:hover {
+  border-radius: 30px;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
