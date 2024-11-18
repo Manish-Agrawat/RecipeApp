@@ -18,7 +18,7 @@ A simple and interactive recipe app that fetches delicious recipes using [TheMea
 ---
 
 ## 🌐 Live Demo
-[Click here to view the live project!](#) *(Add link once hosted)*
+
 
 ---
 
@@ -72,8 +72,8 @@ recipe-app/
 ├── index.html          # Main page for searching recipes
 ├── recipe.html         # Page for viewing recipe details
 ├── about.html          # About page
-├── styles.css          # Main stylesheet
-├── script.js           # Main JavaScript file
+├── index.css          # Main stylesheet
+├── index.js           # Main JavaScript file
 └── README.md           # Project documentation
 ```
 
@@ -89,8 +89,8 @@ recipe-app/
 
 ## 📧 Contact
 Feel free to reach out if you have any suggestions or issues:
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **GitHub**: [Your GitHub Profile](https://github.com/your-username)
+- **Email**: (manishk77287@gmail.com)
+- **GitHub**: [Your GitHub Profile](https://github.com/Manish-Agrawat)
 
 ---
 
