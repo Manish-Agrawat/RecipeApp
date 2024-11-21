@@ -7,6 +7,9 @@ body {
   width: 100vw;
   height: 100vh;
   color: wheat;
+  
+  background-color: rgb(3, 3, 3);
+  opacity: 0.9;
 }
 
 nav {
@@ -55,30 +58,22 @@ nav {
 .search input:focus {
   border-radius: 15px;
   outline: none;
+  transition: width 0.3s ease-in-out;
+  width: 250px;
+  transition: background-color 0.3s ease-in-out;
+  background-color: #ddd;
 }
 
-.search button {
-  padding: 10px 20px;
-  background-color: #7fe67f;
-  color: white;
-  border: none;
-  cursor: pointer;
-  margin-left: 5px;
-  border-radius: 5px;
-}
 
-.search button:hover {
-  background-color: #fd06ed;
-  border-radius: 20px;
-}
 
 .container-box {
   width: 100%;
   height: 100vh;
-  background-image: url(./image/aboutbg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .container {
@@ -86,14 +81,14 @@ nav {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: 40%;
-  text-align: center;
-  width: 60%;
-  margin-top: 50px;
+
   gap: 20px;
+  text-align: center;
+  
+  
 }
 .about {
-  width: 90%;
+  width: 80%;
   height: 160px;
   border-radius: 10px;
   color: white;
@@ -109,16 +104,17 @@ nav {
 .par {
   font-size: 25px;
   font-weight: 500px;
-  margin-bottom: 10px;
+  margin-top: 10px;
   text-align: center;
   justify-content: center;
+ 
 }
 .img-box {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 20px;
 }
 
 .img-box img {

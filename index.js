@@ -56,7 +56,6 @@ async function getdata(query) {
       document.querySelector(".data-box").appendChild(div);
     });
   } else {
-    
     console.log("No meals found for the given query.");
     let result = document.createElement("h1");
     result.classList.add("No-result");
@@ -66,7 +65,7 @@ async function getdata(query) {
   }
 }
 
-searchbtn.addEventListener("click", function () {
+search.addEventListener("input", function () {
   document.querySelector(".data-box").innerHTML = "";
   let searchTerm = search.value.trim();
   getdata(searchTerm);
@@ -80,3 +79,6 @@ search.addEventListener("input", function () {
 });
 
 getdata("cake");
+
+
+
