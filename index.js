@@ -45,6 +45,10 @@ async function getdata(query) {
       let btn = document.createElement("button");
       btn.classList.add("btn");
       btn.textContent = "View Recipe";
+      btn.addEventListener("click", () => {
+        // Redirect to a new page with recipe details
+        window.location.href = `recipi.html?id=${element.idMeal}`;
+      });
 
       div.appendChild(img);
       div2.appendChild(title);
